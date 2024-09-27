@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+    <style>
+    body{
+    text-align: center;
+    background-color: lightgreen;
+ }
+ .g{
+    text-align:center;
+    
+    color: black; 
+ }
+ .a{
+    color:black;
+ }
+ .b{
+    color: black;
+ }
+    
+    </style>
+    
+        
+        
+</head>
+<body>
+    <DIV CLASS="a">STUDENT REGISTERATION FORM</DIV>
+    <hr class="b">
+    <form>
+       Firstname:<input type="text" id="name" placeholder="Enter Firstname:" name="yuva" style="text-transform: uppercase;"><br><br>
+       Lastname:<input type="text" id="name" placeholder="Enter Lastname:" name="yuva" style="text-transform: uppercase;"><br><br>
+        <label for="course"> course</label>
+        <select name="course:"  id="course">
+            <option value="c">c</option>
+            <option value="c++">c++</option>
+            <option value="pytho">python</option>
+            <option value="java">java</option>
+            <option value="HTML">html</option>
+            <option value="kotlin">kotlin</option>
+            <option value="php">php</option>
+        </select><br><br> 
+        Gender: <label for="gender">Male</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="gender">Female</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="gender">Other</label>
+        <input type="radio" id="other" name="gender" value="other"><br><br><br>
+        <label for="mobile number"> Mobile number</label><br>
+        <input type="tel" id="num" placeholder="+91" ><br><br>
+        Description: <br>
+        <textarea name="descripition" rows="4" cols="32"></textarea><br><br>
+        <label for="mail">Email:</label><br>
+        <input type="email" name="email" id="email" placeholder="Email"><br><br>
+        <label for="pass">Password:</label><br>
+        <input type="password" placeholder="Password"><br>
+        <label for="pass">Re-type Password:</label><br>
+        <input type="password" placeholder="re-type password"><br><br>
+        <button onclick="alert('SUMBITED successfully')">SUMBIT</button>
+
+
+
+    </form>
+    
+</body>
+</html>
